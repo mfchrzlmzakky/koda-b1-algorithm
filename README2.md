@@ -38,6 +38,6 @@ FUNCTION Aritmatika(A : INTEGER, B : INTEGER, C : INTEGER) RETURNS INTEGER
 ENDFUNCTION
 OUTPUT "Hasil = ", Aritmatika(1, 1, 0)
 <!--  -->
-DECLARE Result : INTEGER
-Result <- Aritmatika(1, 1, 0)
-OUTPUT "Hasil ", Result
+DECLARE Hasil : INTEGER
+Hasil <- Aritmatika(1, 1, 0)
+OUTPUT "Hasil ", Hasil
