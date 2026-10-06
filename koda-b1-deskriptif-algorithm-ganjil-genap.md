@@ -14,7 +14,7 @@ Menentukan bilangan ganjil atau genap
 
 ## Menentukan Bilangan Ganjil/Genap
 
-::: mermaid
+``` mermaid
 
 flowchart TB
 
@@ -34,4 +34,4 @@ cek -. Tidak .-> ganjil
 ganjil --> selesai
 genap --> selesai
 
-:::
+```
