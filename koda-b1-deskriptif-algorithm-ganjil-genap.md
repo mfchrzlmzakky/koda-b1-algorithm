@@ -35,3 +35,16 @@ ganjil --> selesai
 genap --> selesai
 
 ```
+
+
+## Pseudo-Code
+```
+DECLARE A
+DECLARE B
+INPUT A
+B <- A % 2
+IF B = 0 THEN
+ Output "Bilangan Genap"
+ELSE
+ Output "Bilangan Ganjil"
+ENDIF
