@@ -14,13 +14,13 @@ Menghitung luas dan keliling Lingkaran
 
 ## Menghitung luas & keliling lingkaran
 
-``` mermaid
+```mermaid
 
 flowchart TB
 
 start((Mulai))
 r[/Nilai r/]
-cek/7{r / 7 = 0}
+cek/7{r % 7 = 0}
 pi1[/22/7/]
 pi2[/3.14/]
 cekhitungapa{Hitung Luas?}
@@ -44,3 +44,25 @@ tampilluas --> selesai
 tampilkeliling --> selesai
 
 ```
+
+## Pseudo-Code
+```
+DECLARE R : REAL
+DECLARE Pi : REAL
+DECLARE HitungLuas : BOOLEAN
+DECLARE HasilHitungLuas : REAL
+DECLARE HasilHitungKeliling : REAL
+INPUT R
+IF R % 7 = 0 THEN
+  Pi <- 22/7
+ELSE
+  Pi <- 3.14
+ENDIF
+INPUT HitungLuas
+IF HitungLuas = true THEN
+  HasilHitungLuas <- Pi * R * R
+  Output "Luas Lingkaran = ", HasilHitungLuas
+ELSE
+  HasilHitungKeliling <- 2 * Pi * R
+  Output "Keliling Lingkaran = ", HasilHitungKeliling
+ENDIF
