@@ -37,7 +37,7 @@ FUNCTION Aritmatika(A : INTEGER, B : INTEGER, C : INTEGER) RETURNS INTEGER
  RETURN A * B + C
 ENDFUNCTION
 OUTPUT "Hasil = ", Aritmatika(1, 1, 0)
-<!--  -->
+<!-- Cara Lain Memanggil Function -->
 DECLARE Hasil : INTEGER
 Hasil <- Aritmatika(1, 1, 0)
 OUTPUT "Hasil ", Hasil
