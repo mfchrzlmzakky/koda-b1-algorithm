@@ -1,0 +1,8 @@
+Memindahkan air antar gelas
+
+1. Mulai
+2. Ambil gelas kosong
+3. Masukkan teh ke gelas kosong
+4. Masukkan kopi ke gelas bekas teh
+5. Masukkan teh ke gelas kopi
+6. Selesai
