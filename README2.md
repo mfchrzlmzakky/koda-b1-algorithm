@@ -32,3 +32,12 @@ B <- 1
 C <- 0
 Result <- A * B + C
 OUTPUT "Hasilnya adalah ", Result
+
+FUNCTION Aritmatika(A : INTEGER, B : INTEGER, C : INTEGER) RETURNS INTEGER
+ RETURN A * B * C
+ENDFUNCTION
+OUTPUT "Hasil = ", Aritmatika(1, 1, 0)
+<!--  -->
+DECLARE Result : INTEGER
+Result <- Aritmatika(1, 1, 0)
+OUTPUT "Hasil ", Result
