@@ -1,9 +1,0 @@
-Menghitung luas dan keliling Lingkaran
-
-1. Mulai
-2. Siapkan variabel dengan isi nilai pi, yaitu 3,14
-3. Siapkan variabel untuk menampung nilai jari-jari
-4. Masukkan nilai jari-jari ke variabel yang sudah disiapkan
-5. Hitung luas lingkaran dengan cara pi dikalikan nilai jari-jari dikalikan nilai jari-jari
-6. Hitung keliling lingkaran dengan cara pi dikalikan 2 dikalikan nilai jari-jari
-6. Selesai
