@@ -1,4 +1,4 @@
-Menghitung luas dan keliling Lingkaran
+Menghitung 
 
 1. Mulai
 2. Siapkan variabel untuk menampung bilangan yang mau dicek ganjil atau genap
