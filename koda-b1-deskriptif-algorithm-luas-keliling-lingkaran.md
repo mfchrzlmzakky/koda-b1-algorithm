@@ -23,7 +23,7 @@ r[/Nilai r/]
 cek/7{r / 7 = 0}
 pi1[/22/7/]
 pi2[/3.14/]
-cekhitungapa{Hitung Luas/Keliling}
+cekhitungapa{Hitung Luas?}
 hitungluas["Hitung Luas (pi*r*r)"]
 hitungkeliling["Hitung Keliling (2*pi*r)"]
 tampilluas[/Hasil Luas/]
@@ -36,8 +36,8 @@ cek/7 -. Ya .-> pi1
 cek/7 -. Tidak .-> pi2
 pi1 --> cekhitungapa
 pi2 --> cekhitungapa
-cekhitungapa --> hitungluas
-cekhitungapa --> hitungkeliling
+cekhitungapa -. Ya .-> hitungluas
+cekhitungapa -. Tidak .-> hitungkeliling
 hitungluas --> tampilluas
 hitungkeliling --> tampilkeliling
 tampilluas --> selesai
