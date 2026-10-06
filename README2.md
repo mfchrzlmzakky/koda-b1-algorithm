@@ -33,6 +33,7 @@ C <- 0
 Result <- A * B + C
 OUTPUT "Hasilnya adalah ", Result
 
+<!-- Function -->
 FUNCTION Aritmatika(A : INTEGER, B : INTEGER, C : INTEGER) RETURNS INTEGER
  RETURN A * B + C
 ENDFUNCTION
