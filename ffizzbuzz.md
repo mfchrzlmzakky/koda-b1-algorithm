@@ -10,7 +10,7 @@ check2{"i %2 == 0?"}
 output[/Output i/]
 output2[/FizzBuzz/]
 increment["i++"]
-finish(((finish)))
+finish(((end)))
 start --> init
 init --> check
 check -- YES --> check2
