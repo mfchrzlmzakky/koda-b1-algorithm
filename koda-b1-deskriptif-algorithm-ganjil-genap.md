@@ -44,7 +44,7 @@ DECLARE B
 INPUT A
 B <- A % 2
 IF B = 0 THEN
- Output "Bilangan Genap"
+ OUTPUT "Bilangan Genap"
 ELSE
- Output "Bilangan Ganjil"
+ OUTPUT "Bilangan Ganjil"
 ENDIF
