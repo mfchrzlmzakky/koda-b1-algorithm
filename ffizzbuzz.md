@@ -30,4 +30,4 @@ FOR i <- 1 TO 10
   ELSE
     OUTPUT i
   END IF
-ENDFOR
+NEXT i
