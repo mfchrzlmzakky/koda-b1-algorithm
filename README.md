@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 
 flowchart TB
 
@@ -16,4 +16,4 @@ cek --> tidak
 tidak --> nilai
 lulus --> selesai
 
-:::
+```
